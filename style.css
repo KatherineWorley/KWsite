@@ -1,0 +1,94 @@
+body {
+    width: auto;
+    height: 200px;
+    font-size: 22px;
+    margin-top: 2cm;
+    float: left;
+    margin: auto 100px;
+    border-radius: 2px;
+    box-sizing: border-box;
+	font-family: 'Lato', sans-serif;
+}
+
+html {
+  position: absolute;
+  background: url(images/chicago-mural.jpg) no-repeat center center fixed; 
+  background-color: rgb(175,160,148);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.header1 {
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin-top: 1cm;
+    padding-top: 3cm;
+    position: fixed; 
+    text-align: center;
+    opacity: 0.6;
+    background-color: white;
+    z-index: -1;
+}
+
+.header2 {
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin-top: 8cm;
+    padding-top: 5cm;
+    position: fixed; 
+    text-align: center;
+    opacity: 0.5;
+    background-color: white;
+    z-index: -1;
+}
+
+.bio, .name {
+    padding: 10px;
+    margin: 40px;
+    color: black;
+    border: 0px;
+    word-wrap: break-word;
+}
+
+.face-circle {
+    border-radius: 60%;
+    width: 200px;
+    z-index: 4;
+}
+
+.links-images {
+    padding: 10px;
+    margin: 50px;
+    color: black;
+    border: 0px;
+    word-wrap: break-word;
+    z-index: 4;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    position: fixed; 
+    text-align: center;
+    padding-top: 3cm;
+    opacity: 0.6;
+    z-index: -4;
+    background-color: white;
+}
+
+.sidebarleft {
+    left: 20;
+    bottom: 0;
+    width: 100%;
+    position: fixed; 
+    text-align: center;
+    padding-top: 30cm;
+    background-color: white;
+    opacity: 0.6;
+    z-index: -5;
+}
